@@ -8,12 +8,22 @@
     display: inline-block;
 }
 
+.box p {
+	color: #000000;
+	text-align: center;
+}
+
 .box1 {
 		height: 100px;
     width: 100px;
     background-color: #33FF99;
     border-radius: 5px;
     display: inline-block;
+}
+
+.box1 p {
+	color: #000000;
+	text-align: center;
 }
 
 
@@ -60,4 +70,26 @@
 
 .pull-me p {
 	text-align: center;
+}
+
+.box2 {
+	height: 100px;
+  width: 100px;
+  background-color: #000000;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.box2 p {
+	color: #00FF33;
+	text-align: center;
+}
+
+/* two classes, one element */
+
+.box2.highlighted {
+		-webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
 }

@@ -16,3 +16,9 @@ $(document).ready(function(){
 		$('.panel').slideToggle('slow');
 	});
 });
+
+$(document).ready(function(){
+	$('.box2').click(function(){
+		$(this).toggleClass('highlighted');
+	});
+});
